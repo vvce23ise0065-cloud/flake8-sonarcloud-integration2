@@ -1,5 +1,8 @@
 def add(a, b):
     return a + b
 
-print(add(5, 10))
-print("trigger github action again")
+
+result = add(5, 10)
+
+print(result)
+print("Trigger GitHub Actions")
