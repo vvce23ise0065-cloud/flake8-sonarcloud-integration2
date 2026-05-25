@@ -1,8 +1,9 @@
 def add(a, b):
+    """Return the sum of two numbers."""
     return a + b
 
 
-print(add(5, 10))
+result = add(5, 10)
 
-
-print("trigger github action")
+print(result)
+print("Trigger GitHub Action")
